@@ -1,0 +1,2 @@
+$host.UI.RawUI.WindowTitle = "node03"
+./go-spacemesh --listen /ip4/0.0.0.0/tcp/7513 --config C:\Spacemesh\node03\config.mainnet.json -d ./sm_data --smeshing-coinbase sm1qqqqqqq8w0q0tdp5dsudgh0q7rawau4q2y8rqmc6ysnj5 --smeshing-start --filelock afair4 --smeshing-opts-datadir I:\post03 --smeshing-opts-provider 0  --smeshing-opts-maxfilesize 4294967296 --smeshing-opts-numunits 55 | Tee-Object -file output.txt
